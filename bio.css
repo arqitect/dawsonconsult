@@ -109,11 +109,11 @@ p{
     display: block;
 }
 .dawson-logo{
-    height: 130px;
-    width: 365px;
+    height: 90px;
+    width: 156px;
     position: absolute;
     top: 0px;
-    left: 150px;
+    left: 200px;
     z-index: 10;
 }
 .title-container{
@@ -124,13 +124,13 @@ p{
 }
 .banner-container{
     width: 100%;
-    height: 500px;
+    height: fit-content;
 }
 .blue-overlay{
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 500px;
+    height: 300px;
     background-color: #0059748d;
     opacity: 1;
     z-index: 3;
@@ -145,21 +145,22 @@ p{
 }
 .overlay-fade-out{
     width: 100%;
-    height: 110px;
+    height: 100px;
     position: absolute;
     background: linear-gradient(0deg, #ffffff, #00000000);
-    top: 390px;
+    top: 200px;
     z-index: 5;
 }
-.title-text{
-    width: 560px;
-    height: fit-content;
+.page-title{
+    width: auto;
+    height: auto;
+    rotate: -90deg;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 52px;
     position: absolute;
-    top: 200px;
-    left: 50%;
+    top: 90px;
+    left: 18.5%;
     transform: translate(-50%, -50%);
     z-index: 4;
 }
@@ -178,47 +179,38 @@ p{
     transform: translate(-50%, -50%);
     z-index: 4;
 }
-.bullets-area{
+.content-area{
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     position: relative;
 }
-.bullets-container{
+.content-container{
     width: 1152px;
     height: fit-content;
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     padding: 52px 0px;
-    gap: 24px;
+    gap: 12px;
 }
-.bullet-item1{
-    /*display: list-item;*/
-    width: 600px;
+.content-title{
     height: auto;
-    font-size: 20px;
+    width: auto;
+    font-size: 36px;
     font-weight: 600;
-    color: #000000;
-    padding-right: 500px;
+    align-self: center;
 }
-.bullet-item2{
-    /*display: list-item;*/
-    width: 600px;
+.content-text{
     height: auto;
-    font-size: 20px;
-    font-weight: 600;
-    color: #000000;
+    width: auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
 }
-.bullet-item3{
-    /*display: list-item;*/
-    width: 600px;
-    height: auto;
-    font-size: 20px;
-    font-weight: 600;
-    color: #000000;
-    padding-left: 500px;
+.content-bullet-container{
+    line-height: 150%;
 }
 .dcg-grey{
     z-index: -1;
@@ -226,4 +218,12 @@ p{
     height: 570px;
     position: absolute;
     top: 400px;
+}
+.headshot{
+    width: 240px;
+    height: auto;
+    position: absolute;
+    top: 425px;
+    left: 225px;
+    border-radius: 12px;
 }
