@@ -229,10 +229,23 @@ p{
     top: 300px;
 }
 .headshot{
-    width: 240px;
+    width: 25%;
     height: auto;
-    position: absolute;
-    top: 425px;
-    left: 225px;
     border-radius: 12px;
+    min-width: 230px;
+}
+.headshot-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 5%;
+    padding-left: 10%;
+    gap: 10%;
+    align-items: center;
+}
+.headshot-text{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

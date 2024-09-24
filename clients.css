@@ -256,13 +256,13 @@ p{
     flex: 1;
 }
 .column-header{
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 600;
-    padding-bottom: 18px;
+    padding-bottom: 24px;
     padding-top: 36px;
 }
 .column-items{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     padding-bottom: 8px;
 }

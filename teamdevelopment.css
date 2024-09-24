@@ -168,10 +168,11 @@ p{
     font-weight: 600;
     font-size: 52px;
     position: absolute;
-    top: 84px;
-    left: 146px;
+    top: 90px;
+    left: 152px;
     transform: translate(-50%, -50%);
     z-index: 4;
+    letter-spacing: 90%;
 }
 .title-info{
     width: 720px;
@@ -196,7 +197,7 @@ p{
     position: relative;
 }
 .content-container{
-    width: 900px;
+    width: 1000px;
     height: fit-content;
     display: flex;
     align-items: left;
@@ -214,22 +215,19 @@ p{
 .content-text{
     height: auto;
     width: auto;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 150%;
 }
 .content-bullet-container{
     line-height: 150%;
 }
-.content-bullet-container li{
-    padding-bottom: 12px;
-}
 .dcg-grey{
     z-index: -1;
     width: 100%;
-    height: 5050px;
+    height: 800px;
     position: absolute;
-    top: 300px;
+    top: 320px;
 }
 .headshot{
     width: 240px;
@@ -239,11 +237,109 @@ p{
     left: 225px;
     border-radius: 12px;
 }
-.alt-bullet{
-    padding-left: 48px;
+.num-bullet-container{
     line-height: 150%;
-    list-style-type: circle;
+    list-style-type: decimal;
 }
-.alt-bullet li{
-    padding-top: 6px;
+.num-bullet-container li{
+    padding-left: 16px;
+}
+.alpha-bullet-container{
+    line-height: 150%;
+    list-style-type: lower-alpha;
+    padding-bottom: 12px;
+    word-spacing: 110%;
+}
+.alpha-bullet-container li{
+    padding-bottom: 4px;
+}
+.assessment-image{
+    width: 80%;
+    height: auto;
+    align-self: center;
+}
+.flowchart-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flowchart-start{
+    background-color: #fcfe5b;
+    height: 250px;
+    width: 500px;
+    border: solid;
+    border-color: #000000;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000000;
+}
+.flowchart-start-text{
+    height: max-content;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    flex-direction: column;
+}
+.flowchart-bullets{
+    list-style-type: none;
+    margin: 0;
+    font-size: 18px;
+}
+.flowchart-bullets > li{
+    text-indent: -5px;
+}
+.flowchart-bullets > li:before{
+    content: "-";
+    padding-right: 12px;
+}
+.flowchart-end-container{
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 24px;
+}
+.flowchart-end{
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flowchart-end-box{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 36px;
+    border: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #000000;
+}
+.arrow{
+    position: absolute;
+    width: 2px;
+    height: 200px;
+    background-color: black;
+    transform: translateX(-50%);
+}
+.arrow::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+    transform: translateX(-50%);
 }
