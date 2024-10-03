@@ -13,7 +13,7 @@
     --secondary-dark: #2A2B30;
     --tertiary-grey: #626262;
     --accent: #b13c95;
-    --navbar-color: rgba(255, 255, 255, 0.705);
+    --navbar-color: rgba(199, 199, 199, 0.705);
 }
 body{
     background-color: #FFFFFF;
@@ -122,7 +122,7 @@ p{
     width: 156px;
     position: absolute;
     top: 0px;
-    left: 200px;
+    left: 7%;
     z-index: 10;
 }
 .title-container{
@@ -164,13 +164,13 @@ p{
     width: auto;
     height: auto;
     rotate: -90deg;
-    color: #FFFFFF;
+    color: #000000;
     font-weight: 600;
     font-size: 52px;
     position: absolute;
     top: 90px;
-    left: 152px;
-    transform: translate(-50%, -50%);
+    left: 7%;
+    transform: translate(-50%, -140%);
     z-index: 4;
     letter-spacing: 90%;
 }
@@ -342,4 +342,7 @@ p{
     border-right: 5px solid transparent;
     border-top: 10px solid black;
     transform: translateX(-50%);
+}
+.t{
+    margin-left: 20%;
 }
