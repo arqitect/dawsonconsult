@@ -227,9 +227,9 @@ p{
 .dcg-grey{
     z-index: -1;
     width: 100%;
-    height: 5050px;
+    height: 5000px;
     position: absolute;
-    top: 300px;
+    top: 20px;
 }
 .headshot{
     width: 240px;
